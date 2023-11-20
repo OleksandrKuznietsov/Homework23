@@ -1,10 +1,12 @@
-package org.example;
+package org.example.Servlets;
 
 import com.google.gson.Gson;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.example.Order;
+import org.example.Product;
 
 import java.io.IOException;
 import java.io.PrintWriter;
